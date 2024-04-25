@@ -12,7 +12,7 @@ const toBool = (x) => x === 'true';
 const DATABASE_URL = process.env.DATABASE_URL === undefined ? "./database.db" : process.env.DATABASE_URL
 
 module.exports = {
-  AUDIO_DATA: process.env.AUDIO_DATA || 'ʟᴏᴋɪ-xᴇʀ;ᴊᴀʀᴠɪꜱ;https://i.imgur.com/ep3UbBP.jpg',
+  AUDIO_DATA: process.env.AUDIO_DATA || 'ʟᴏᴋɪ-xᴇʀ;ᴊᴀʀᴠɪꜱ;https://telegra.ph/file/d356b4f8da54744a6fc20.jpg',
   WARN_COUNT: process.env.WARN_COUNT || '3',
   LOGS: toBool(process.env.LOGS) || true,
   KOYEB_API: process.env.KOYEB_API || '',
@@ -32,7 +32,7 @@ module.exports = {
   WELCOME_MSG: process.env.WELCOME_MSG || 'Hi @user Welcome to @gname',
   GOODBYE_MSG: process.env.GOODBYE_MSG || 'Hi @user It was Nice Seeing you',
   AUTHOR: process.env.AUTHOR || 'RUSH-MASTER',
-  MEDIA_DATA: process.env.MEDIA_DATA|| 'ʟɪꜱᴛ ᴍᴇɴᴜ;ᴊᴀʀᴠɪꜱ-ᴍᴅ;https://i.imgur.com/ltPPMTh.jpeg',
+  MEDIA_DATA: process.env.MEDIA_DATA|| 'ʟɪꜱᴛ ᴍᴇɴᴜ;RUSH-ᴍASTER;https://telegra.ph/file/d356b4f8da54744a6fc20.jpg',
   SUDO: process.env.SUDO || '917020728211,',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || '',
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || '',
